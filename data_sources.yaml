@@ -1,0 +1,7 @@
+- name: tutorial-provider
+  description: Tutorial provider
+  providerType: catnip
+  config:
+    endpoint: https://jsonplaceholder.typicode.com
+    accept: true
+    numRetries: 1

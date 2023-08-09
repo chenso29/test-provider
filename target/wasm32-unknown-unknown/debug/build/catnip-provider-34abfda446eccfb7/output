@@ -1,0 +1,13 @@
+cargo:rustc-env=VERGEN_BUILD_TIMESTAMP=2023-08-08T07:21:57.2188199Z
+cargo:rustc-env=VERGEN_BUILD_SEMVER=1.0.0
+cargo:rustc-env=VERGEN_GIT_BRANCH=master
+cargo:rustc-env=VERGEN_GIT_COMMIT_AUTHOR_EMAIL=an.dima@slexn.com
+cargo:rustc-env=VERGEN_GIT_COMMIT_AUTHOR_NAME=An Dima
+cargo:rustc-env=VERGEN_GIT_COMMIT_COUNT=1
+cargo:rustc-env=VERGEN_GIT_COMMIT_MESSAGE=init
+
+cargo:rustc-env=VERGEN_GIT_COMMIT_TIMESTAMP=2023-07-31T06:26:28Z
+cargo:rustc-env=VERGEN_GIT_SEMVER=1.0.0
+cargo:rustc-env=VERGEN_GIT_SHA=3722480a507058177d72a73bc651d55b081dff42
+cargo:rerun-if-changed=/home/argp/catnip_provider/.git/HEAD
+cargo:rerun-if-changed=/home/argp/catnip_provider/.git/refs/heads/master

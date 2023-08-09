@@ -1,0 +1,13 @@
+prefix=/home/argp/catnip_provider/target/debug/build/libz-sys-b893aa9a3dc3abe2/out
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+sharedlibdir=@sharedlibdir@
+includedir=@includedir@
+
+Name: zlib
+Description: zlib compression library
+Version: @VERSION@
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

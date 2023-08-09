@@ -1,0 +1,12 @@
+/home/argp/catnip_provider/target/wasm32-unknown-unknown/debug/deps/serde_qs-47009c0fb8a0fb98.rmeta: /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/lib.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/mod.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/parse.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/error.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/ser.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/utils.rs
+
+/home/argp/catnip_provider/target/wasm32-unknown-unknown/debug/deps/libserde_qs-47009c0fb8a0fb98.rlib: /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/lib.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/mod.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/parse.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/error.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/ser.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/utils.rs
+
+/home/argp/catnip_provider/target/wasm32-unknown-unknown/debug/deps/serde_qs-47009c0fb8a0fb98.d: /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/lib.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/mod.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/parse.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/error.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/ser.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/utils.rs
+
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/lib.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/mod.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/de/parse.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/error.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/ser.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_qs-0.12.0/src/utils.rs:

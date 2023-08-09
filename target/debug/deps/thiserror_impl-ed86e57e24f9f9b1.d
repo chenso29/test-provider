@@ -1,0 +1,12 @@
+/home/argp/catnip_provider/target/debug/deps/libthiserror_impl-ed86e57e24f9f9b1.so: /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/lib.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/ast.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/attr.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/expand.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/fmt.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/generics.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/prop.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/valid.rs
+
+/home/argp/catnip_provider/target/debug/deps/thiserror_impl-ed86e57e24f9f9b1.d: /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/lib.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/ast.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/attr.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/expand.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/fmt.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/generics.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/prop.rs /home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/valid.rs
+
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/lib.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/ast.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/attr.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/expand.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/fmt.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/generics.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/prop.rs:
+/home/argp/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.44/src/valid.rs:

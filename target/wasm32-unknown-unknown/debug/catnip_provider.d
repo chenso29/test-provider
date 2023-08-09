@@ -1,0 +1,1 @@
+/home/argp/catnip_provider/target/wasm32-unknown-unknown/debug/catnip_provider.wasm: /home/argp/catnip_provider/.git/HEAD /home/argp/catnip_provider/.git/refs/heads/master /home/argp/catnip_provider/build.rs /home/argp/catnip_provider/src/lib.rs
