@@ -22,7 +22,16 @@ struct OriginalObject {
     object_type: String,
 }
 
-async fn fetch_graph_data() -> Result<Blob> {
+#[derive(Deserialize, QuerySchema)]
+struct GraphQuery {
+    // FIXME: Fiberplane Studio currently requires some field to display a
+    // submittable form.
+    #[allow(dead_code)]
+    #[pdk(label = "Press Ctrl+Enter to submit")]
+    dummy: String,
+}
+
+async fn fetch_graph_data(_query: GraphQuery) -> Result<Blob> {
     let request = HttpRequest::get(
         "http://115.178.76.46:31998/charts/totalchart?intervalE=years%20ago&intervalS=1",
     );
@@ -101,7 +110,7 @@ fn create_cells(query_type: String, _response: Blob) -> Result<Vec<Cell>> {
 pdk_query_types! {
     TIMESERIES_QUERY_TYPE  => {
         label: "Retool: show chart",
-        handler: fetch_graph_data().await,
+        handler: fetch_graph_data(GraphQuery).await,
         supported_mime_types: [TIMESERIES_MIME_TYPE]
     },
     STATUS_QUERY_TYPE => {
