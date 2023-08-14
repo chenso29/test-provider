@@ -97,6 +97,7 @@ dependencies = [
 name = "catnip-provider"
 version = "1.0.0"
 dependencies = [
+ "chrono",
  "fiberplane-models",
  "fiberplane-pdk",
  "serde",
@@ -129,7 +130,10 @@ checksum = "ec837a71355b28f6556dbd569b37b3f363091c0bd4b2e735674521b4c5fd9bc5"
 dependencies = [
  "android-tzdata",
  "iana-time-zone",
+ "js-sys",
  "num-traits",
+ "time 0.1.45",
+ "wasm-bindgen",
  "winapi",
 ]
 
@@ -192,7 +196,7 @@ dependencies = [
  "strum",
  "strum_macros",
  "thiserror",
- "time",
+ "time 0.3.24",
  "typed-builder",
  "url",
 ]
@@ -242,7 +246,7 @@ dependencies = [
  "rmpv",
  "serde",
  "serde_json",
- "time",
+ "time 0.3.24",
 ]
 
 [[package]]
@@ -277,7 +281,7 @@ dependencies = [
  "serde_bytes",
  "serde_json",
  "syn 1.0.109",
- "time",
+ "time 0.3.24",
 ]
 
 [[package]]
@@ -744,6 +748,17 @@ dependencies = [
 
 [[package]]
 name = "time"
+version = "0.1.45"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1b797afad3f312d1c66a56d11d0316f916356d11bd158fbc6ca6389ff6bf805a"
+dependencies = [
+ "libc",
+ "wasi",
+ "winapi",
+]
+
+[[package]]
+name = "time"
 version = "0.3.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b79eabcd964882a646b3584543ccabeae7869e9ac32a46f6f22b7a5bd405308b"
@@ -886,7 +901,7 @@ dependencies = [
  "git2",
  "rustversion",
  "thiserror",
- "time",
+ "time 0.3.24",
 ]
 
 [[package]]
@@ -894,6 +909,12 @@ name = "version_check"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
+
+[[package]]
+name = "wasi"
+version = "0.10.0+wasi-snapshot-preview1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1a143597ca7c7793eff794def352d41792a93c481eb1042423ff7ff72ba2c31f"
 
 [[package]]
 name = "wasm-bindgen"
