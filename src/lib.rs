@@ -1,10 +1,10 @@
 mod clv;
 
-use chrono::{format::format, NaiveDate, NaiveDateTime};
+use chrono::{Date, NaiveDate, NaiveDateTime};
 use clv::{PrometheusPoint, RangeVector};
 use fiberplane_pdk::prelude::*;
 use serde::{Deserialize, Serialize};
-use std::collections::BTreeMap;
+use std::{collections::BTreeMap, string};
 
 pub const RETOOL_EMBED_APP: &str = "x-showcase-cells";
 
@@ -27,18 +27,24 @@ struct GraphQuery {
     // FIXME: Fiberplane Studio currently requires some field to display a
     // submittable form.
     #[allow(dead_code)]
-    #[pdk(label = "From YYYY-MM-DD")]
-    from: String,
+    #[pdk(label = "Time range")]
+    time_range: DateTimeRange,
+}
 
-    #[allow(dead_code)]
-    #[pdk(label = "To YYYY-MM-DD")]
-    to: String,
+fn truncate_string(input: &str) -> String {
+    if input.len() > 10 {
+        input[..10].to_string()
+    } else {
+        input.to_string()
+    }
 }
 
 async fn fetch_graph_data(_query: GraphQuery) -> Result<Blob> {
+    let to = truncate_string(&_query.time_range.to.to_string());
+    let from = truncate_string(&_query.time_range.from.to_string());
     let url: String = format!(
         "http://115.178.76.46:31998/charts/totalchart?intervalE={}&intervalS={}",
-        _query.to, _query.from
+        to, from
     );
 
     let request = HttpRequest::get(url);
