@@ -1,6 +1,6 @@
 mod clv;
 
-use chrono::{NaiveDate, NaiveDateTime};
+use chrono::{format::format, NaiveDate, NaiveDateTime};
 use clv::{PrometheusPoint, RangeVector};
 use fiberplane_pdk::prelude::*;
 use serde::{Deserialize, Serialize};
@@ -27,14 +27,21 @@ struct GraphQuery {
     // FIXME: Fiberplane Studio currently requires some field to display a
     // submittable form.
     #[allow(dead_code)]
-    #[pdk(label = "Press Ctrl+Enter to submit")]
-    dummy: String,
+    #[pdk(label = "From YYYY-MM-DD")]
+    from: String,
+
+    #[allow(dead_code)]
+    #[pdk(label = "To YYYY-MM-DD")]
+    to: String,
 }
 
 async fn fetch_graph_data(_query: GraphQuery) -> Result<Blob> {
-    let request = HttpRequest::get(
-        "http://115.178.76.46:31998/charts/totalchart?intervalE=years%20ago&intervalS=1",
+    let url: String = format!(
+        "http://115.178.76.46:31998/charts/totalchart?intervalE={}&intervalS={}",
+        _query.to, _query.from
     );
+
+    let request = HttpRequest::get(url);
 
     let response = make_http_request(request).await?;
     let body_as_string = String::from_utf8_lossy(&response.body).to_string();
